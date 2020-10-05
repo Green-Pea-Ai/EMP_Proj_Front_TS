@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom'
+
 const Home = () => <div className="home">
     <h1> [홈] </h1>
     <nav>
@@ -9,4 +10,5 @@ const Home = () => <div className="home">
         <Link to={"contact"}>[고객 지원]</Link>
     </nav>
 </div>
+
 export default Home

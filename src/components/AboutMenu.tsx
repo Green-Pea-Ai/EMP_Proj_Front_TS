@@ -20,4 +20,5 @@ const AboutMenu = ({match}) => <div className={"about-menu"}>
         <NavLink to={"/about/location"} activeStyle={selectedStyle}>[위치]</NavLink>
     </li>
 </div>
+
 export default AboutMenu

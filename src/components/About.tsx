@@ -1,7 +1,8 @@
 import React from "react";
 import {PageTemplate, AboutMenu} from './index'
-import {Company, History, Location, Services} from './aboutMenu/index'
+import {Company, History, Services, Location} from './aboutMenu/index'
 import {Route} from 'react-router-dom'
+
 const About = ({match}) => <PageTemplate>
     <section className="about">
         <Route component={AboutMenu} />
@@ -11,4 +12,5 @@ const About = ({match}) => <PageTemplate>
         <Route path={"/about/location"} component ={Location}/>
     </section>
 </PageTemplate>
+
 export default About
