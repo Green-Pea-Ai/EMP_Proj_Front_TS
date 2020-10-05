@@ -14,7 +14,7 @@ const AboutMenu = ({match}) => <div className={"about-menu"}>
         <NavLink to={"/about/history"} activeStyle={selectedStyle}>[연혁]</NavLink>
     </li>
     <li>
-        <NavLink to={"/about/service"} activeStyle={selectedStyle}>[서비스]</NavLink>
+        <NavLink to={"/about/services"} activeStyle={selectedStyle}>[서비스]</NavLink>
     </li>
     <li>
         <NavLink to={"/about/location"} activeStyle={selectedStyle}>[위치]</NavLink>
