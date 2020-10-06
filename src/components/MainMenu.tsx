@@ -12,6 +12,7 @@ const MainMenu = () => <nav className={"main-menu"}>
     <NavLink to={"/events"} activeStyle={selectedStyle}>[이벤트]</NavLink>
     <NavLink to={"/products"} activeStyle={selectedStyle}>[제품]</NavLink>
     <NavLink to={"/contact"} activeStyle={selectedStyle}>[고객지원]</NavLink>
+    <NavLink to={"/admin_info"} activeStyle={selectedStyle}>[관리자 정보]</NavLink>
 </nav>
 
 export default MainMenu

@@ -1,5 +1,5 @@
 import React from "react";
-import {About, Contact, Events, Home, Products, Error} from "../components";
+import {About, Contact, Events, Home, Products, Error, AdminInfo} from "../components";
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 
 const Main: React.FC = () => {
@@ -15,6 +15,7 @@ const Main: React.FC = () => {
                     <Route path="/contact" component = {Contact}/>
                     <Route path="/events" component = {Events} />
                     <Route path="/products" component = {Products} />
+                    <Route path="/admin_info" component = {AdminInfo} />
 
                     <Route component={Error}/>
                 </Switch>
