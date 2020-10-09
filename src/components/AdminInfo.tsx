@@ -1,6 +1,6 @@
 import React from "react";
 import { PageTemplate } from './index'
-import GlobalStyles from './alpha_style/GlobalStyles';
+// import GlobalStyles from './alpha_style/GlobalStyles';
 
 // import { useRoutes } from 'react-router-dom';
 // import DashboardLayout from "../layouts/DashboardLayout";
@@ -19,7 +19,6 @@ const AdminInfo = () => {
     
     return ( 
         <PageTemplate> <section className="admin_info">
-        <GlobalStyles/>
         <h1> [ 관리자 정보 페이지 ] </h1>
         
         <Budget/>
