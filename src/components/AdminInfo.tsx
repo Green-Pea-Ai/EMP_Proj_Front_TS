@@ -1,18 +1,17 @@
 import React from "react";
-import { PageTemplate } from './index'
+import { PageTemplate } from './index';
 // import GlobalStyles from './alpha_style/GlobalStyles';
 
 // import { useRoutes } from 'react-router-dom';
 // import DashboardLayout from "../layouts/DashboardLayout";
-import Budget from '../views/reports/dashboardView/Budget'
-import TotalCustomers from "../views/reports/dashboardView/TotalCustomers";
-import TasksProgress from "../views/reports/dashboardView/TasksProgress";
-import TotalProfit from "../views/reports/dashboardView/TotalProfit";
-import Sales from "../views/reports/dashboardView/Sales";
-import TrafficByDevice from "../views/reports/dashboardView/TrafficByDevice";
-import LatestProducts from "../views/reports/dashboardView/LatestProducts";
-import LatestOrders from "../views/reports/dashboardView/LatestOrders";
-
+import Budget from './admin/Budget';
+import TotalCustomers from './admin/TotalCustomers';
+import TasksProgress from './admin/TasksProgress';
+import TotalProfit from './admin/TotalProfit';
+import Sales from './admin/Sales';
+import TrafficByDevice from './admin/TrafficByDevice';
+import LatestProducts from './admin/LatestProducts';
+import LatestOrders from './admin/LatestOrders';
 
 const AdminInfo = () => {
 
@@ -21,7 +20,7 @@ const AdminInfo = () => {
         <PageTemplate> <section className="admin_info">
         <h1> [ 관리자 정보 페이지 ] </h1>
         
-        <Budget/>
+        <Budget/> 
         <TotalCustomers/>
         <TasksProgress/>
         <TotalProfit/>
