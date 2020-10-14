@@ -1,6 +1,6 @@
 #### Ver: Windows 10<br/><br/>
 
-### Anaconda 설치<br/>
+### 1. Anaconda 설치<br/>
 https://www.anaconda.com/products/individual
 
 Add Anaconda my PATH 옵션 체크하여 설치 진행.<br/><br/>
