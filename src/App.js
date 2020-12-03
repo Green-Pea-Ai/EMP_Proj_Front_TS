@@ -14,7 +14,7 @@ import { Login, Signup, UserInfo } from './containers/usr/user'
 
 export default function App() {
     const [loggedIn, setLoggedIn] = useState(sessionStorage.getItem('sessionUser'))
-    
+
     return (<>
         <BrowserRouter>
             {/* <Header /> */}
@@ -23,7 +23,7 @@ export default function App() {
                 <Route exact path='/' component={ Home }></Route>
                 <Redirect from={'/home'} to={'/'} />
                 <Route path='/login' component={ Login }></Route>
-                <Rote path='/signup' component={ Signup }></Rote>
+                <Route path='/signup' component={ Signup }></Route>
                 <Route path='/user-info' component={ UserInfo } />
                 {/* <Route path='/modifying-user-info' component={ UserModify }/>
                 <Route path='/membership-withdrawal' component={ UserWithdrawal }/>

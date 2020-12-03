@@ -11,8 +11,6 @@ import styled from 'styled-components';
 import cheeseLogin from '../../../components/cmm/images/cheese/cheeseImg2.png'
 // import logo from "../images/logo.svg";
 import { ReactComponent as LoginIcon } from 'feather-icons/dist/icons/log-in.svg'
-import { useDispatch } from 'react-redux'
-import AnimationRevealPage from '../../../components/cmm/AnimationEffect'
 
 
 const Container = tw(ContainerBase)`min-h-screen bg-yellow-500 text-white font-medium flex justify-center`;

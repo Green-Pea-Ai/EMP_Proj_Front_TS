@@ -102,7 +102,7 @@ function TablePaginationActions(props) {
     )
 }
 
-TablePaginationActions.PropTypes = {
+TablePaginationActions.propTypes = {
     count: PropTypes.number.isRequired,
     onChangePage: PropTypes.func.isRequired,
     page: PropTypes.number.isRequired,
@@ -123,7 +123,7 @@ export default function Review() {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
     const [page, setPage] = useState(0)
-    const [rowsPerpage, setRowsPerPage] = useState(10)
+    const [rowsPerPage, setRowsPerPage] = useState(10)
     // const dispatch = useDispatch()
     const classes = useStyles()
 
@@ -152,7 +152,7 @@ export default function Review() {
     if (error) return <div>error</div>;
     if (!reviews) return null;
 
-    const emptyRows = rowsPerPage - Math.min(rowsPerpage, reviews.length - page * rowsPerPage)
+    const emptyRows = rowsPerPage - Math.min(rowsPerPage, reviews.length - page * rowsPerPage)
     const handleChangePage = (event, newPage) => {
         setPage(newPage)
     }
@@ -180,7 +180,7 @@ export default function Review() {
                     </TableHead>
                     <TableBody>
                         {(rowsPerPage > 0
-                            ? reviews.slice(page * rowsPerpage, page * rowsPerpage + rowsPerpage)
+                            ? reviews.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                             : reviews
                             ).map(reviews => (
                                 <TableRow key={ reviews.review_no }>
@@ -201,7 +201,7 @@ export default function Review() {
                                 rowsPerPageOptions={ [10, 20, 30, { label: 'All', value: -1 }]}
                                 colSpan={ 3 }
                                 count={ reviews.length }
-                                rowsPerPage={ rowsPerpage }
+                                rowsPerPage={ rowsPerPage }
                                 page={ page }
                                 SelectProps={{
                                     inputProps: { 'aria-label': 'row per page'},

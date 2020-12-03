@@ -1,21 +1,20 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { userActions } from  '../../../modules/usr/user/user.action'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 
 import Select from 'react-select' //eslint-disable-line
 import { Container as ContainerBase } from '../../../components/cmm/Layouts'
 import tw from 'twin.macro'
 import styled from 'styled-components'
-import { css } from 'styled-components/macro'
+import { css } from 'styled-components/macro' //eslint-disable-line
 import cheeseRegister from '../../../components/cmm/images/cheese/cheeseImg2.png'
 
 import { ReactComponent as SignUpIcon } from 'feather-icons/dist/icons/user-plus.svg'
 import { FormControl, FormLabel, RadioGroup, Radio, Card } from '@material-ui/core' //eslint-disable-line
 import FormControlLabel from '@material-ui/core/FormControlLabel'
-import AnimationRevealPage from '../../../components/cmm/AnimationEffect'
 
 
-const Conainer = tw(ContainerBase)`min-h-screen bg-yellow-500 text-white font-medium flex justify-center`;
+const Container = tw(ContainerBase)`min-h-screen bg-yellow-500 text-white font-medium flex justify-center`;
 const Content = tw.div`max-w-screen-xl m-0 sm:mx-20 sm:my-16 bg-white text-gray-900 shadow sm:rounded-lg flex justify-center flex-1`;
 const MainContainer = tw.div`lg:w-1/2 xl:w-5/12 p-6 sm:p-12`;
 const MainContent = tw.div`mt-12 flex flex-col items-center`;
