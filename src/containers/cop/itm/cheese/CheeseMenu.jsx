@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import tw from 'twin.macro';
-import styled from 'styled-components';
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import tw from "twin.macro";
+import styled from "styled-components";
 import { SectionHeading as HeadingTitle } from "../../../../components/cmm/Headings.jsx";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../../../components/cmm/images/svg-decorator-blob-1.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "../../../../components/cmm/images/svg-decorator-blob-3.svg";
-import { cheeseActions } from '../../../../modules/cop/itm/cheese/cheese.action.js'
+import { cheeseActions } from "../../../../modules/cop/itm/cheese/cheese.action.js";
 
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;

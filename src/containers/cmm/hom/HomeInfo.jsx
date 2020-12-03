@@ -1,6 +1,6 @@
-import React from 'react'
-import styled from 'styled-components'
-import tw from 'twin.macro'
+import React from "react";
+import styled from "styled-components"
+import tw from "twin.macro"
 import { ReactComponent as SvgDotPatternIcon } from '../../../components/cmm/images/dot-pattern.svg'
 import { SectionHeading as HeadingTitle } from '../../../components/cmm/Headings.jsx'
 
