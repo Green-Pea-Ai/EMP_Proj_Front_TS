@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import tw from 'twin.macro';
-import styled from 'styled-components';
-import { css } from 'styled-components/macro';
-import { Container, ContentWithPaddingXl } from '../../../../components/cmm/Layouts.jsx';
-import { SectionHeading } from '../../../../components/cmm/Headings.jsx';
-import { PrimaryButton as PrimaryButtonBase } from '../../../../components/cmm/Buttons.jsx';
-import { ReactComponent as StarIcon } from '../../../../components/cmm/images/star-icon.svg';
-import { ReactComponent as SvgDecoratorBlob1 } from '../../../../components/cmm/images/svg-decorator-blob-5.svg';
-import { ReactComponent as SvgDecoratorBlob2 } from '../../../../components/cmm/images/svg-decorator-blob-7.svg';
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import tw from "twin.macro";
+import styled from "styled-components";
+import { css } from "styled-components/macro";
+import { Container, ContentWithPaddingXl } from "../../../../components/cmm/Layouts.jsx";
+import { SectionHeading } from "../../../../components/cmm/Headings.jsx";
+import { PrimaryButton as PrimaryButtonBase } from "../../../../components/cmm/Buttons.jsx";
+import { ReactComponent as StarIcon } from "../../../../components/cmm/images/star-icon.svg";
+import { ReactComponent as SvgDecoratorBlob1 } from "../../../../components/cmm/images/svg-decorator-blob-5.svg";
+import { ReactComponent as SvgDecoratorBlob2 } from "../../../../components/cmm/images/svg-decorator-blob-7.svg";
 
 
 const HeaderRow = tw.div`flex justify-between items-center flex-col xl:flex-row`;
